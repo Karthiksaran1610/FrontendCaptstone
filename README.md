@@ -161,7 +161,7 @@ The RealEstateHub is a comprehensive web application designed to streamline the 
 
 By implementing these features, the Registration System aims to provide a reliable and efficient solution for user and listing management. We are committed to continuous improvement and welcome feedback from our users to further enhance the system's capabilities and user experience.
 
-Here to view the Frontend Deployed URL: 
+Here to view the Frontend Deployed URL: https://frontendcapstone10.netlify.app/
 
-                   ## **THANK YOU**
+                                                                        ## THANK YOU
 
