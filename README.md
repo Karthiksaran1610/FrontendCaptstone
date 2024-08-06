@@ -16,7 +16,6 @@ The RealEstateHub is a comprehensive web application designed to streamline the 
 
 - Navigate to registration page
 
-
 #### Fill Out the Registration Form:
 
 - Username: Enter a unique username.
@@ -94,12 +93,56 @@ The RealEstateHub is a comprehensive web application designed to streamline the 
 
 - **Furnished Option:** Checkbox or toggle for users to specify if the listing is furnished.
 
-  ***
+- **Offer Type:** Option to specify the type of offer (e.g., for sale, for rent).
 
--**Offer Type:** Option to specify the type of offer (e.g., for sale, for rent).
+- **Parking Availability:** Field or checkbox to specify whether parking is available.
 
--**Parking Availability:** Field or checkbox to specify whether parking is available.
+- **Image Upload:** Allows users to upload images of their listing.
 
--**Image Upload:** Allows users to upload images of their listing.
+- **Price Input:** Field for users to enter the regular price of the listing.
 
--**Price Input:** Field for users to enter the regular price of the listing.
+***
+
+### UPDATE LISTING
+
+![Screenshot (81)](https://github.com/user-attachments/assets/c6de73e9-c435-40d1-9344-13a6c445a348)
+
+- ** **Name:** Modify the name of the listing.
+  
+- **Description:** Update the detailed description with new or corrected information.
+  
+- **Location:** Change the address or location of the listing.
+  
+- **Beds and Baths:** Adjust the number of bedrooms and bathrooms.
+  
+- **Offer:** Change the type of offer (e.g., for sale, for rent) and the associated price.
+  
+- **Regular Price:** Update the regular price of the listing.
+  
+- **Furnished Status:** Modify the furnished status and provide additional details if necessary.
+  
+- **Parking:** Update parking availability and details.
+  
+- **Images:** Add, remove, or update images associated with the listing.
+
+***
+
+### CONTACT LANDLORD
+
+![Screenshot (82)](https://github.com/user-attachments/assets/ffe942c7-d67d-4889-b91a-a86206f9199c)
+
+- **Contact Form:** A form for users to fill out their name, email, phone number, and message.
+
+- **Email Notification:** Sends an email notification to the landlord when a new message is received.
+
+***
+
+### MESSAGE IN MAIL
+
+![Screenshot (88)](https://github.com/user-attachments/assets/c299cd6a-46dc-4de1-b2be-b7efb5f7d77c)
+
+***
+![Screenshot (89)](https://github.com/user-attachments/assets/3695891e-a810-4e76-ae8a-5573fc5a1936)
+
+
+
