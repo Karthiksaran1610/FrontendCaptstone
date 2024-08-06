@@ -6,4 +6,4 @@ The RealEstateHub is a comprehensive web application designed to streamline the 
 
 ### REGISTRATION PAGE
 
-![registration page] (<images/Signin.png>)
+![registration page] (<c:\Users\karth\OneDrive\Pictures\Screenshots\signup.png.png>)
