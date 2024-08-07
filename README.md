@@ -12,9 +12,9 @@ The RealEstateHub is a comprehensive web application designed to streamline the 
 
 
 #### Purpose
--The user registration process allows new users to create an account by providing necessary details. This enables personalized and secure access to the application's features
+- The user registration process allows new users to create an account by providing necessary details. This enables personalized and secure access to the application's features
 
--Navigate to registration page
+- Navigate to registration page
 
 ![Screenshot (83)](https://github.com/user-attachments/assets/f8048aca-59f8-4c38-a3a1-3ef02f3b9000)
 
