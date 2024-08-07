@@ -173,5 +173,4 @@ By implementing these features, the Registration System aims to provide a reliab
 Here to view the Frontend Deployed URL: https://frontendcapstone10.netlify.app/
 
                                             
->>>>>>> f9ab2dfb62871fce51a55fef3277d253cc71708e
 
