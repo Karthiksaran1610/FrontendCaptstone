@@ -64,7 +64,7 @@ const Signup = () => {
               <TextInput
                 type="text"
                 placeholder="Enter your Username"
-                id="isername"
+                id="username"
                 onChange={handleChange}
               />
             </div>
