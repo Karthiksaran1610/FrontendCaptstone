@@ -25,7 +25,7 @@ const Signup = () => {
       setLoading(true);
       setErrorMessage(null);
       const response = await fetch(
-        "http://localhost:5000/api/auth/register-user",
+        "https://backendcapstone10.onrender.com/api/auth/register-user",
         {
           method: "POST",
           headers: {
