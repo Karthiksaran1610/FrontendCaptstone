@@ -16,7 +16,7 @@ const Home = () => {
     const fetchOfferListings = async () => {
       try {
         const res = await fetch(
-          "http://localhost:5000/api/listing/get?offer=true&limit=4"
+          "https://backendcapstone10.onrender.com/api/listing/get?offer=true&limit=4"
         );
         const data = await res.json();
         setOfferListings(data);
@@ -27,7 +27,7 @@ const Home = () => {
     const fetchRentListings = async () => {
       try {
         const res = await fetch(
-          "http://localhost:5000/api/listing/get?type=rent&limit=4"
+          "https://backendcapstone10.onrender.com/api/listing/get?type=rent&limit=4"
         );
         const data = await res.json();
         setRentListings(data);
@@ -37,7 +37,7 @@ const Home = () => {
     const fetchSaleListings = async () => {
       try {
         const res = await fetch(
-          "http://localhost:5000/api/listing/get?type=sale&limit=4"
+          "https://backendcapstone10.onrender.com/api/listing/get?type=sale&limit=4"
         );
         const data = await res.json();
         setSaleListings(data);
