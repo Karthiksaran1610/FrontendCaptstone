@@ -30,7 +30,7 @@ export default function Listing() {
       try {
         setLoading(true);
         const res = await fetch(
-          `http://localhost:5000/api/listing/get/${params.listingId}`
+          `https://backendcapstone10.onrender.com/api/listing/get/${params.listingId}`
         );
         const data = await res.json();
         if (data.success === false) {
