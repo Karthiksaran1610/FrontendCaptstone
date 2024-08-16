@@ -108,7 +108,7 @@ const DashboardProfile = () => {
     try {
       dispatch(updateStart());
       const response = await fetch(
-        `http://localhost:5000/api/user/update/${currentuser.rest._id}`,
+        `https://backendcapstone10.onrender.com/api/user/update/${currentuser.rest._id}`,
         {
           method: "PUT",
           headers: {
@@ -142,7 +142,7 @@ const DashboardProfile = () => {
     try {
       dispatch(deleteUserStart());
       const response = await fetch(
-        `http://localhost:5000/api/user/delete/${currentuser.rest._id}`,
+        `https://backendcapstone10.onrender.com/api/user/delete/${currentuser.rest._id}`,
         {
           method: "DELETE",
           headers: {
@@ -175,7 +175,7 @@ const DashboardProfile = () => {
       //   return;
       // }
       const res = await fetch(
-        `http://localhost:5000/api/user/listings/${currentuser.rest._id}`,
+        `https://backendcapstone10.onrender.com/api/user/listings/${currentuser.rest._id}`,
         {
           method: "GET",
           headers: {
@@ -199,7 +199,7 @@ const DashboardProfile = () => {
   const handleListingDelete = async (listingId) => {
     try {
       const res = await fetch(
-        `http://localhost:5000/api/listing/delete/${listingId}`,
+        `https://backendcapstone10.onrender.com/api/listing/delete/${listingId}`,
         {
           method: "DELETE",
           headers: {
