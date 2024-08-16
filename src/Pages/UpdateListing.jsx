@@ -37,7 +37,7 @@ export default function CreateListing() {
     const fetchListing = async () => {
       const listingId = params.listingId;
       const res = await fetch(
-        `http://localhost:5000/api/listing/get/${listingId}`
+        `https://backendcapstone10.onrender.com/api/listing/get/${listingId}`
       );
       const data = await res.json();
       if (data.success === false) {
@@ -140,7 +140,7 @@ export default function CreateListing() {
       setError(false);
       // const token = localStorage.getItem('token');
       const res = await fetch(
-        `http://localhost:5000/api/listing/update/${params.listingId}`,
+        `https://backendcapstone10.onrender.com/api/listing/update/${params.listingId}`,
         {
           method: "PUT",
           headers: {
