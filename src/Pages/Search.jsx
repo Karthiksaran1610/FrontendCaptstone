@@ -53,7 +53,7 @@ export default function Search() {
       setShowMore(false);
       const searchQuery = urlParams.toString();
       const res = await fetch(
-        `http://localhost:5000/api/listing/get?${searchQuery}`,
+        `https://backendcapstone10.onrender.com/api/listing/get?${searchQuery}`,
         {
           method: "GET",
           headers: {
@@ -129,7 +129,7 @@ export default function Search() {
     urlParams.set("startIndex", startIndex);
     const searchQuery = urlParams.toString();
     const res = await fetch(
-      `http://localhost:5000/api/listing/get?${searchQuery}`
+      `https://backendcapstone10.onrender.com/api/listing/get?${searchQuery}`
       // {
       //   method: "GET",
       //   headers: {
